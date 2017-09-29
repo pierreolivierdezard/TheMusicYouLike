@@ -1,0 +1,17 @@
+[26-Jul-2017 03:53:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/blank/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/blank/bootstrap/autoload.php on line 17
+[26-Jul-2017 03:53:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/blank/bootstrap/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/blank/bootstrap/autoload.php on line 17
+[20-Aug-2017 02:26:36 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/Project/vendor/composer/ClassLoader.php on line 440
+[13-Sep-2017 05:42:16 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/composer/ClassLoader.php on line 440
+[13-Sep-2017 05:42:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Monolog\Formatter\LineFormatter' not found in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/Writer.php:354
+Stack trace:
+#0 /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/Writer.php(217): Illuminate\Log\Writer->getDefaultFormatter()
+#1 /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php(73): Illuminate\Log\Writer->useFiles('/home/ubuntu/wo...', 'debug')
+#2 /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php(60): Illuminate\Log\LogServiceProvider->configureSingleHandler(Object(Illuminate\Log\Writer))
+#3 /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php(36): Illuminate\Log\LogServiceProvider->configureHandler(Object(Illuminate\Log\Writer))
+#4 /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/LogServic in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/laravel/framework/src/Illuminate/Log/Writer.php on line 354
+[14-Sep-2017 05:28:21 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/composer/ClassLoader.php on line 440
+[14-Sep-2017 11:18:49 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/composer/ClassLoader.php on line 440
+[15-Sep-2017 02:49:03 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/ubuntu/workspace/WebAppDev/ProjectV2/vendor/composer/ClassLoader.php on line 440
+[17-Sep-2017 13:09:47 UTC] PHP Fatal error:  Can't use method return value in write context in /home/ubuntu/workspace/WebAppDev/ProjectV2/storage/framework/views/7812fa9281272af18e03464a2f6bd76510cd779d.php on line 37
+[17-Sep-2017 13:10:13 UTC] PHP Fatal error:  Can't use method return value in write context in /home/ubuntu/workspace/WebAppDev/ProjectV2/storage/framework/views/7812fa9281272af18e03464a2f6bd76510cd779d.php on line 37
+[17-Sep-2017 13:11:24 UTC] PHP Fatal error:  Can't use method return value in write context in /home/ubuntu/workspace/WebAppDev/ProjectV2/storage/framework/views/7812fa9281272af18e03464a2f6bd76510cd779d.php on line 37

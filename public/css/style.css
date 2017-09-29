@@ -1,0 +1,221 @@
+/*Master Template*/
+
+body{
+    background-color: #b7bbc9;
+    color: black !important;
+    min-width: 450px;
+}
+a:hover{
+   text-decoration: none; 
+}
+#header{
+    background-color: #ff9347;
+    border-bottom: 1px solid black;
+    color: black !important;
+    margin: 0 0 19px 0;
+    padding: 10px 15px 15px 15px;
+}
+.title{
+    color: black !important;
+}
+.title:hover{
+    font-size: 19px;
+    transition: 0.25s ease-in-out;
+}
+.menu>li>a{
+    color: black !important;
+}
+
+/*Home Page*/
+.userInfo{
+    text-align: center;
+}
+.profileImage{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 130px;
+}
+#formUser{
+    margin-bottom: 10px;
+}
+.formUserMessageContent, .formUserNameContent, .formUserImageContent{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.formUserName{
+    margin: 10px 25px 0px 10px;
+    float: inherit;
+}
+.formUserComment{
+    margin: 10px 25px 0px 25px;
+}
+.search{
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.glass{
+    height: 35px;
+    width: 5%;
+}
+.searchBar{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 94%;
+}
+.btn-primary{
+    background-color: #ff9347;
+    border-color: #ff8d3d;
+    color: #ececec;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
+    background-color: #ff8d3d;
+    border-color: #ff8d3d;
+}
+.btn-link{
+    color: #ff9347;
+}
+.alert{
+    color: red;
+}
+.postImage{
+    border-radius: 5%;
+    float: left;
+    max-width: 150px;
+    width: 25%;
+}
+.post{
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 158px;
+    position: relative;
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+.postText{
+    margin: 10px 0 10px auto;
+    text-align: center;
+    width: 75%;
+}
+.postHeader{
+    border-bottom: 1px solid black;
+    margin: auto 3px;
+    float: left;
+    width: 100%;
+}
+.postTitle{
+    float: left;
+    width: 80%;
+}
+.postEdit{
+    float: right;
+    width: 20%;
+}
+.formDelete{
+    margin-right: 22px;
+    margin-top: 3px;
+    float: right;
+}
+.edit,.cancel{
+    cursor: pointer;
+    width: 22px;
+}
+.edit:hover,.cancel:hover,.commentCancel:hover{
+    transition: 0.25s ease-in-out;
+    width: 27px;
+}
+.postMessage{
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    text-align: left;
+}
+.postDate{
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+}
+.commentNotif{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+.commentNb{
+    background-color: #ff9347;
+    border-radius: 50%;
+    color: black;
+    left: -45%;
+    position: absolute;
+    height: 23px;
+    top: -40%;
+    width: 23px;
+    z-index: 1;
+}
+.commentIcon{
+    position: relative;
+    width: 28px;
+}
+.commentIcon:hover{
+    transition: 0.25s ease-in-out;
+    width: 33px;
+}
+
+/*Comments Page*/
+
+.commentsArea{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+.comment{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 10px 10px;
+    margin: 10px 25px 0px 25px;
+    padding: 5px;
+    text-align: left;
+}
+.commentCancel{
+    cursor: pointer;
+    float: right;
+    width: 22px;
+}
+.wrapper{
+    text-align: center;
+}
+.pagination>.active>span{
+    background-color: #ff9347 !important;
+    border-color: #ff8d3d !important;
+}
+.pagination>li>a{
+    color: #ff9347 !important;
+}
+/*Search*/
+.userSearch{
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+    margin-right: 35px;
+    margin-top: 20px;
+    min-width: 165px;
+    text-align: center;
+    width: 22%;
+}
+.addFriend{
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 22px;
+}
